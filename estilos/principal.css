@@ -1,0 +1,54 @@
+
+
+#titulo {
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Yesteryear', cursive;
+    font-size: 100px;
+    color:#483d3d;
+}
+
+.navbar-expand-lg {
+    margin: 0 auto;
+    display: table;
+}
+
+.form-inline .form-control {
+    width: 618px;
+}
+
+.navbar.navbar-expand-lg {
+    margin-bottom: 3%;
+}
+
+.table{
+    margin: 0 auto;
+    display: none;
+}
+
+#alinear {
+    margin: 0 auto;
+    margin-top: 0px;
+    display: table;
+    margin-top: 5%;
+    font-size: 31px;
+}
+
+i:hover, td:hover{
+    cursor:pointer;
+}
+
+#cargando{
+    margin-top: 2%;
+    display: none;
+    magin:0 auto;
+}
+
+#cargando img{
+    margin: 0 auto;
+    display: table;
+}
+
+.fas.fa-star {
+    display: none;
+}
