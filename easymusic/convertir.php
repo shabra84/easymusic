@@ -21,6 +21,9 @@
         //almacenamos el nombre del archivo para borrarlo al principio.
         $_SESSION['nombre_archivo'] = "temporal-".$temporal.".mp3";
 
-        $_SESSION['nombre'] = $diccionario;
-        echo json_encode($diccionario);
+        $comando = 'rm -Rf '.$_SESSION['nombre_archivo'];
+
+        $salida_borrar = shell_exec($comando);
+
+        echo json_encode($salida);
 
